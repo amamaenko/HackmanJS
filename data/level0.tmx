@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="21" height="22" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="background_color" value="#000000"/>
+ </properties>
+ <tileset firstgid="1" name="metatiles32x32" tilewidth="32" tileheight="32">
+  <image source="metatiles32x32.png" width="160" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="solid"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="6" name="brick" tilewidth="32" tileheight="32">
+  <image source="brick.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Background" width="21" height="22">
+  <data encoding="base64">
+   BgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAABgAAAAAAAAAGAAAABgAAAAYAAAAAAAAABgAAAAYAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAYAAAAGAAAAAAAAAAYAAAAGAAAABgAAAAAAAAAGAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAABgAAAAAAAAAGAAAABgAAAAYAAAAAAAAABgAAAAAAAAAGAAAABgAAAAYAAAAGAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAGAAAABgAAAAAAAAAGAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAAAAAABgAAAAYAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAYAAAAGAAAAAAAAAAYAAAAGAAAABgAAAAYAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAABgAAAAAAAAAGAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAYAAAAGAAAABgAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAGAAAABgAAAAYAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAYAAAAGAAAABgAAAAYAAAAAAAAABgAAAAAAAAAGAAAABgAAAAYAAAAGAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAGAAAABgAAAAYAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAYAAAAGAAAABgAAAAYAAAAAAAAABgAAAAAAAAAGAAAABgAAAAYAAAAGAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAABgAAAAAAAAAGAAAABgAAAAYAAAAAAAAABgAAAAYAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAYAAAAGAAAAAAAAAAYAAAAGAAAABgAAAAAAAAAGAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAABgAAAAYAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAABgAAAAYAAAAGAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAYAAAAGAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAABgAAAAAAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAAAAAAGAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAA
+  </data>
+ </layer>
+ <layer name="collision" width="21" height="22" opacity="0.24">
+  <properties>
+   <property name="type" value="solid"/>
+  </properties>
+  <data encoding="base64">
+   AQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAAAAAAEAAAABAAAAAQAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAABAAAAAAAAAAEAAAABAAAAAQAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAABAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAABAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAAAAAAEAAAABAAAAAQAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAA
+  </data>
+ </layer>
+ <objectgroup name="Entities" width="21" height="22">
+  <object name="mainPlayer" x="321" y="225" width="32" height="30">
+   <properties>
+    <property name="image" value="pacman"/>
+    <property name="spriteheight" value="32"/>
+    <property name="spritewidth" value="32"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="40" y="24">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="40" y="88">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="168" y="88">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="40" y="152">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="168" y="152">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="168" y="344">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="169" y="471">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="296" y="88">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="360" y="88">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="360" y="24">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="488" y="24">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="616" y="24">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="616" y="88">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="488" y="88">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="423" y="151">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="616" y="152">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="424" y="88">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="232" y="87">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="232" y="152">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="168" y="24">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="296" y="24">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="DotEntity" x="488" y="153">
+   <properties>
+    <property name="image" value="dot"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object name="ghost" x="321" y="320" width="32" height="30">
+   <properties>
+    <property name="image" value="ghost"/>
+    <property name="spriteheight" value="32"/>
+    <property name="spritewidth" value="32"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
