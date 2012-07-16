@@ -32,7 +32,7 @@ var DotEntity = me.CollectableEntity.extend({
         }
 
         // give some score on a HUD
-        me.game.HUD.updateItemValue("dotCounterDisplay", 100);
+        me.game.HUD.updateItemValue("dotCounterDisplay", 10);
 
         // make sure it cannot be collected "again"
         this.collidable = false;

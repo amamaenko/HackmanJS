@@ -29,6 +29,12 @@ var PlayerEntity = me.ObjectEntity.extend({
     /* ----- update the player pos ------ */
     update: function() {
         
+        if ((this.vel.x < 0) && (this.pos.x <= 2)) {
+            this.pos.x = 672-32;
+        } else if ((this.vel.x > 0) && (this.pos.x >= 672-34)) {
+            this.pos.x = 0;
+        }
+        
         // This variable we might need in the future for restoring direction if after selecting a new one
         // the mainPlayer would hit the wall
         var oldVel = this.vel.clone();
