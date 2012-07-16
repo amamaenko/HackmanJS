@@ -6,8 +6,8 @@ var PlayerEntity = me.ObjectEntity.extend({
         // call the constructor
         this.parent(x, y, settings);
 
-        // set the walking speed        
-        this.vel.x=0;
+        // set the walking speed, on start player moves to the right        
+        this.vel.x=3;
         this.vel.y=0;
         
         // set the gravity to 0
