@@ -71,6 +71,7 @@ var jsApp = {
         me.input.bindKey(me.input.KEY.RIGHT, "right");
         me.input.bindKey(me.input.KEY.UP, "up");
         me.input.bindKey(me.input.KEY.DOWN, "down");        
+        //me.input.registerMouseEvent('mousedown', this.collisionBox, function(){alert('hhh')});
          
         //me.debug.renderHitBox = true;
          
